@@ -505,7 +505,7 @@
       .map(id => document.getElementById(id).value);
 
     const payload = {
-      content: '📋 **Nueva solicitud de Habeas Corpus**',
+      content: '📋 **Nueva solicitud de Habeas Corpus <@&1378790770449977405>**',
       embeds: [
         {
           title: 'Solicitud de Habeas Corpus',
