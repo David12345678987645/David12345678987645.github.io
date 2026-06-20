@@ -516,7 +516,6 @@
             { name: '⚖️ Motivos marcados de la solicitud', value: motivos.length ? truncate(motivos.join('\n• '), 1024) : '— Ninguno marcado —' },
             { name: '🗒️ Detalle del motivo', value: truncate(val('motivoDetalle'), 1024) },
             { name: '🙋 Solicitante', value: truncate(val('solNombre'), 1024), inline: true },
-            { name: '🔗 Relación con el detenido', value: truncate(val('solRelacion'), 1024), inline: true },
             { name: '📞 Teléfono de contacto', value: truncate(val('solTelefono'), 1024) },
             { name: 'ℹ️ Información adicional / testigos', value: truncate(val('infoAdicional'), 1024) }
           ]
