@@ -342,12 +342,9 @@
             <select id="institucion">
               <option value="">— Selecciona —</option>
               <option>Policía Nacional</option>
-              <option>Policía Local / Municipal</option>
+              <option>Policía Local</option>
               <option>Guardia Civil</option>
-              <option>Guardia Nacional</option>
-              <option>Ejército</option>
-              <option>Fiscalía / Ministerio Público</option>
-              <option>No identificada</option>
+              <option>Fuerzas Armadas</option>
               <option>Otra</option>
             </select>
           </div>
@@ -387,8 +384,8 @@
             <label for="m4">Indicios de malos tratos o posible tortura</label>
           </div>
           <div class="check-row">
-            <input type="checkbox" id="m5" value="Desaparición forzada / paradero desconocido">
-            <label for="m5">Desaparición forzada / paradero desconocido</label>
+            <input type="checkbox" id="m5" value="Otras">
+            <label for="m5">Otras</label>
           </div>
         </fieldset>
 
@@ -408,10 +405,6 @@
           <div class="field">
             <label for="solNombre">Nombre completo<span class="req">*</span></label>
             <input type="text" id="solNombre" required>
-          </div>
-          <div class="field">
-            <label for="solRelacion">Relación con el detenido</label>
-            <input type="text" id="solRelacion" placeholder="Familiar, abogado/a, testigo...">
           </div>
         </div>
 
