@@ -441,7 +441,7 @@
   // CONFIGURACIÓN: pega aquí la URL de tu webhook de Discord.
   // Server Settings → Integrations → Webhooks → New Webhook → Copy URL
   // ───────────────────────────────────────────────────────────
-  const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1517848288215175260/pwgvhxm0lnOB7-POgFt5AFJzuFCLA7nkQzLjVs3SE0I0Zgx4G0dWZORf1XGpprx86Bfm";
+  const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1517856410317095054/nDK6pmCV4Cw59J13VtpmPd6lGXWm_4Tmcu4x5hLoVEJEByI73NrBWquXb0_fCvBf9PDl";
 
   const form = document.getElementById('habeasForm');
   const btn = document.getElementById('sendBtn');
@@ -498,7 +498,7 @@
       .map(id => document.getElementById(id).value);
 
     const payload = {
-      content: '📋 **Nueva solicitud de Habeas Corpus <@&1378790770449977405>**',
+      content: '📋 **Nueva solicitud de Habeas Corpus <@&1490738175998431425>**',
       embeds: [
         {
           title: 'Solicitud de Habeas Corpus',
